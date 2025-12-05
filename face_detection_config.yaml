@@ -1,0 +1,15 @@
+# Arquivo: face_detection_config.yaml
+
+# Caminho raiz do dataset
+# Substitua pelo caminho completo onde está sua pasta 'DetectorDataset'
+path: .\ClassifierDataset
+
+# Caminhos relativos para imagens de treino e validação a partir do 'path' acima
+train: images/train  
+val: images/val      
+
+# Número de classes (nc) é 1, porque estamos detectando apenas um tipo de objeto: um rosto genérico.
+nc: 1
+
+# Nomes das classes
+names: ['face']
